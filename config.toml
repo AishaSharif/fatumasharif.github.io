@@ -1,0 +1,141 @@
+baseURL = "https://fatumasharif.github.io/"
+title = "Fatuma Sharif"
+paginate = 5
+theme = "PaperMod"
+
+[params]
+env = "production"
+title = "Fatuma Sharif"
+description = "ExampleSite description"
+keywords = [ "Blog", "Portfolio"]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Fatuma Sharif"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to my blog. I write about things am learning in tech and my journey in figuring out what field to focus on."
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:fatumaibrahim.fs@gmail.com"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/fatumasharif"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/_.aishasharif"
+
+  [[params.socialIcons]]
+  name = "RSS"
+  url = ""
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 40
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 20
+
+[[menu.main]]
+identifier = "subscribe"
+name = "subscribe"
+url = "/subscribe/"
+weight = 50
+
+[markup.highlight]
+noClasses = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
