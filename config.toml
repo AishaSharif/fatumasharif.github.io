@@ -1,5 +1,4 @@
 baseURL = "https://fatumasharif.github.io/"
-title = "Fatuma Sharif"
 paginate = 5
 theme = "PaperMod"
 
@@ -56,8 +55,8 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog. I write about things am learning in tech and my journey in figuring out what field to focus on."
+  Title = "👋 I'm Fatuma Sharif"
+  Content = "Welcome to my blog, where I write about things I've learned or developed. Wanna chat? Drop me a message from my socials below."
 
   [[params.socialIcons]]
   name = "email"
