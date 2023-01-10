@@ -56,9 +56,9 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi, I'm Fatuma Sharif."
+  Title = "Hello Wanderer 👋"
   Content = """
-  Welcome to my little corner of the internet. Here, I write about technologies I am learning and documenting my journey automating my business. 
+  Nice to have you here. Welcome to my little corner of the internet, where I write about technologies I am learning and documenting my journey automating my business. 
   Wanna chat? Drop me a message from any of my socials below.
   """
 
